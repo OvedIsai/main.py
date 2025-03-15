@@ -32,6 +32,4 @@ async def mem(ctx):
         picture = discord.File(f)
     # A continuación, podemos enviar este archivo como parámetro.
     await ctx.send(file=picture)
-
-# Reemplaza 'your_token_here' con tu token de bot
 bot.run('your_token_here')
